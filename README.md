@@ -1,14 +1,10 @@
 # Proyecto: Novela interactiva
 
-Este proyecto consiste en crear una novela interactiva dónde tú cómo jugador tengas el poder de tomar distintas decisiones a lo largo del juego. 
-En esta aventura el jugador conocerá disntitos personajes con los que podrá entablar una amistad o una relación romántica y podrá desbloquear disntintos finales dependiendo de las
-opciones que haya elegido. Por cada personaje habrán 3 finales: uno bueno, uno nuetral y uno malo. Además entre los diálogos e interacciones habrá un final secreto que
-sólo se rebelará sí se presentan las condiciones adecuadas. 
+Este proyecto consiste en crear una novela interactiva dónde tú cómo jugador tengas el poder de tomar distintas decisiones a lo largo del juego. En esta aventura el jugador conocerá distintos personajes con los que podrá entablar una amistad o una relación romántica y podrá desbloquear distintos finales dependiendo de las opciones que haya elegido. Por cada personaje habrán 3 finales: uno bueno, uno neutral y uno malo. Además, entre los diálogos e interacciones habrá un final secreto que sólo se rebelará sí se presentan las condiciones adecuadas.
 
 # La razón detrás del proyecto :D
 
-Durante la pandemia yo, cómo muchas otras personas, sufrí de aislamiento y tuve varios problemas emocionales debido a la falta de interacción humana. Sin embargo, durante esta época descubrí el mundo de los videojuegos y esto me ayudó a mantener mi estabilidad emocional. 
-En este proyecto mi intención es crear una fuente de entretenimientoque ayude a las personas a sobrellevar momentos de soledad o de tristeza y que en forma indirecta deje alguna enseñanza.
+Durante la pandemia yo, cómo muchas otras personas, sufrí de aislamiento y tuve varios problemas emocionales debido a la falta de interacción humana. Sin embargo, durante esta época descubrí el mundo de los videojuegos y esto me ayudó a mantener mi estabilidad emocional. En este proyecto mi intención es crear una fuente de entretenimiento que ayude a las personas a sobrellevar momentos de soledad o de tristeza y que en forma indirecta deje alguna enseñanza.
 
 # Algoritmo
 
