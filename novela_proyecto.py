@@ -4,7 +4,7 @@
 ========Contador========
 """
 puntos_de_conexion = 0
-def contador(puntos, respuesta):
+def contador(respuesta):
     if(respuesta == "A"):
         eleccion = 2
     elif(respuesta == "B"):
@@ -53,7 +53,7 @@ print("Supongamos que tu mejor amigo está triste,¿Qué harías para hacerlo se
 print("A: Darle un abrazo para reconfortarlo. o B: Burlarte de sus sentimientos.")
 
 respuesta = str(input())
-puntos_de_conexion = contador(puntos_de_conexion, respuesta)
+puntos_de_conexion = contador(respuesta)
 print("Puntos de conexión:",puntos_de_conexion,"\n")
 
 if puntos_de_conexion == -1:
@@ -64,7 +64,7 @@ print("Uno de tus comañeros de escuela no entiende la tarea y te pide ayuda. T�
 print("A: Lo ayudarías y resolverías todas las dudas que el tenga. o B: Lo ignorarías, no es tu problema.")
 
 respuesta = str(input())
-puntos_de_conexion = contador(puntos_de_conexion, respuesta)
+puntos_de_conexion = contador(respuesta)
 print("Puntos de conexión:",puntos_de_conexion,"\n")
 
 if puntos_de_conexion > 0 :
@@ -84,4 +84,4 @@ print("Objetos: computadora gamer o tu saga favorita de libros.")
 
 item = input()
 exit()
-#(Estuve medio muriendo con las funciones, tenía planeado poner más y ya desarrollar lo de los items pero me tardé en que funcionara T^T)
+#(Muchas gracias por la recomendación del parámetro, ya lo corregí, en la semana tec estaré haciendo más avances en el código)
