@@ -1,7 +1,7 @@
 
 
 """
-========Contador========
+========Contador tutorial========
 """
 puntos_de_conexion = 0
 def contador(respuesta):
@@ -10,7 +10,78 @@ def contador(respuesta):
     elif(respuesta == "B"):
         eleccion = -1
     return float(puntos_de_conexion + eleccion)
-    
+
+"""
+========Contador Milo========
+"""
+puntos_de_conexion_milo = 0
+def contador(respuesta_milo):
+    if(respuesta_milo == "A"):
+        eleccion = 2
+    elif(respuesta == "B"):
+        eleccion_milo = -1
+    return float(puntos_de_conexion_milo + eleccion)
+
+"""
+========Contador Eli========
+"""
+puntos_de_conexion_eli = 0
+def contador(respuesta_eli):
+    if(respuesta_eli == "A"):
+        eleccion = 2
+    elif(respuesta_eli == "B"):
+        eleccion = -1
+    return float(puntos_de_conexion_eli + eleccion)
+
+"""
+========Contador Arath========
+"""
+puntos_de_conexion_arath = 0
+def contador(respuesta_arath):
+    if(respuesta_arath == "A"):
+        eleccion = 2
+    elif(respuesta_arath == "B"):
+        eleccion = -1
+    return float(puntos_de_conexion_arath + eleccion)
+
+"""
+========Contador Marisa========
+"""
+puntos_de_conexion_marisa = 0
+def contador(respuesta_marisa):
+    if(respuesta_marisa == "A"):
+        eleccion = 2
+    elif(respuesta_marisa == "B"):
+        eleccion = -1
+    return float(puntos_de_conexion_marisa + eleccion)
+"""
+========Inventario========
+"""
+marca_posca = ""
+compu_gamer = ""
+libro_freud = ""
+ajolote = ""
+
+inventario = []
+
+def agregar_inventario
+"""
+========Boost========
+"""
+marca_posca = ""
+compu_gamer = ""
+libro_freud = ""
+ajolote = ""
+def boost(marca_posca,compu_gamer,libro_freud,ajolote):
+    if marca_posca in inventario:
+        return (puntos_de_conexion_milo + 2.25)
+    elif compu_gamer in inventario:
+        return (puntos_de_conexion_eli + 2.25)
+    elif libro_freud in inventario:
+        return (puntos_de_conexion_arath + 2.25)
+    elif ajolote in inventario:
+        return (puntos_de_conexion_marisa + 2.25)
+
 """
 ========Elilge tu nombre========
 """
@@ -80,8 +151,9 @@ print("¿No hay dudas? Perfecto. Que la diversión comience.\n")
 """
 
 print("Es hoy, el primer día en la Universidad X.¿Qué llevarás contigo?")
-print("Objetos: computadora gamer o tu saga favorita de libros.")
+print("Objetos: computadora gamer, marcadores posca, libro desgastado de Freud o almohada de ajolote.")
 
-item = input()
+respuesta = str(input())
+
+#En este avance implemente nuevas funciones que necesitaba para incluir listas y ciclos for (estos los verá en el siguiente avance), también aproveché para ir escribiendo la hsitoria en un word y que así haga más sentido. Aquí se puede ver un ciclo while :D)
 exit()
-#(Muchas gracias por la recomendación del parámetro, ya lo corregí, en la semana tec estaré haciendo más avances en el código)
