@@ -155,5 +155,5 @@ print("Objetos: computadora gamer, marcadores posca, libro desgastado de Freud o
 
 respuesta = str(input())
 
-#En este avance implemente nuevas funciones que necesitaba para incluir listas y ciclos for (estos los verá en el siguiente avance), también aproveché para ir escribiendo la hsitoria en un word y que así haga más sentido. Aquí se puede ver un ciclo while :D)
+#En este avance implemente nuevas funciones que necesitaba para incluir listas y ciclos for (estos los verá en el siguiente avance), también aproveché para ir escribiendo la historia en un word y que así haga más sentido. Aquí se puede ver un ciclo while :D)
 exit()
