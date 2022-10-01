@@ -15,7 +15,7 @@ def contador(respuesta):
 ========Contador Milo========
 """
 puntos_de_conexion_milo = 0
-def contador(respuesta_milo):
+def contador_milo(respuesta_milo):
     if(respuesta_milo == "A"):
         eleccion = 2
     elif(respuesta == "B"):
@@ -26,7 +26,7 @@ def contador(respuesta_milo):
 ========Contador Eli========
 """
 puntos_de_conexion_eli = 0
-def contador(respuesta_eli):
+def contador_eli(respuesta_eli):
     if(respuesta_eli == "A"):
         eleccion = 2
     elif(respuesta_eli == "B"):
@@ -37,7 +37,7 @@ def contador(respuesta_eli):
 ========Contador Arath========
 """
 puntos_de_conexion_arath = 0
-def contador(respuesta_arath):
+def contador_arath(respuesta_arath):
     if(respuesta_arath == "A"):
         eleccion = 2
     elif(respuesta_arath == "B"):
@@ -48,7 +48,7 @@ def contador(respuesta_arath):
 ========Contador Marisa========
 """
 puntos_de_conexion_marisa = 0
-def contador(respuesta_marisa):
+def contador_marisa(respuesta_marisa):
     if(respuesta_marisa == "A"):
         eleccion = 2
     elif(respuesta_marisa == "B"):
@@ -57,30 +57,52 @@ def contador(respuesta_marisa):
 """
 ========Inventario========
 """
-marca_posca = ""
-compu_gamer = ""
-libro_freud = ""
-ajolote = ""
 
 inventario = []
 
-def agregar_inventario
+def agregar_inventario_boost():
+        inventario.append(respuesta_boost)
+        return inventario
+    
+def agregar_inventario_item(respuesta_sn_item):
+    if (respuesta_sn_item == "Sí"):
+        inventario.append(respuesta_item) and respuesta_item.append(respuesta_item)
+        print ("Se agregó al inventario")
+        return inventario
+    else:
+        print("De acuerdo")
+
+"""
+========Inventario========
+"""
+
+items_totales = []
+def num_items(items_totales):
+    cont = 0
+    for respuesta_item in items_totales:
+        cont = cont + 1
+    return cont
+    
+
 """
 ========Boost========
 """
-marca_posca = ""
-compu_gamer = ""
-libro_freud = ""
-ajolote = ""
-def boost(marca_posca,compu_gamer,libro_freud,ajolote):
-    if marca_posca in inventario:
+
+def boost():
+    if "marcadores posca" in inventario:
         return (puntos_de_conexion_milo + 2.25)
-    elif compu_gamer in inventario:
+    elif "computadora gamer" in inventario:
         return (puntos_de_conexion_eli + 2.25)
-    elif libro_freud in inventario:
+    elif "libro desgastado de Freud" in inventario:
         return (puntos_de_conexion_arath + 2.25)
-    elif ajolote in inventario:
+    elif "almohada de ajolote" in inventario:
         return (puntos_de_conexion_marisa + 2.25)
+
+"""
+========Mapa========
+"""
+
+
 
 """
 ========Elilge tu nombre========
@@ -153,7 +175,28 @@ print("¿No hay dudas? Perfecto. Que la diversión comience.\n")
 print("Es hoy, el primer día en la Universidad X.¿Qué llevarás contigo?")
 print("Objetos: computadora gamer, marcadores posca, libro desgastado de Freud o almohada de ajolote.")
 
-respuesta = str(input())
+respuesta_boost = str(input())
+agregar_inventario_boost()
+print(inventario)
 
-#En este avance implemente nuevas funciones que necesitaba para incluir listas y ciclos for (estos los verá en el siguiente avance), también aproveché para ir escribiendo la historia en un word y que así haga más sentido. Aquí se puede ver un ciclo while :D)
+print("Excelente decisión, cómo podrás ver arriba está tu inventario, podrás acceder a el\n""(con una funcion que aún no existe) y usar los objetos que encuentres ")
+print("Ya estás en la Universidad X, una persona bajita se acerca a ti y te mira con ojos tímidos.\n""No puedes evitar sentir ternura")
+
+"""
+========Día 2========
+"""
+
+"""
+========Día 3========
+"""
+
+"""
+========Día 4========
+"""
+
+"""
+========Día 5 (Final)========
+"""
+
+#En este avance terminé de escribir unas funciones, decidí ocupar un día por personaje para no alargar el proyecto, el quinto será donde se revela el final. Asimismo ya están presentes las listas, próximamente pondré listas anidadas. La historia la estoy escribiendo en un documento aparte
 exit()
