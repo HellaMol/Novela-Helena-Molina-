@@ -1,6 +1,6 @@
 # Proyecto: Novela interactiva
 
-Este proyecto consiste en crear una novela interactiva dónde tú cómo jugador tengas el poder de tomar distintas decisiones a lo largo del juego. En esta aventura el jugador conocerá distintos personajes con los que podrá entablar una amistad o una relación romántica y podrá desbloquear distintos finales dependiendo de las opciones que haya elegido. Por cada personaje habrán 3 finales: uno bueno, uno neutral y uno malo. Además, entre los diálogos e interacciones habrá un final secreto que sólo se rebelará sí se presentan las condiciones adecuadas.
+Este proyecto consiste en crear una novela interactiva dónde tú cómo jugador tengas el poder de tomar distintas decisiones a lo largo del juego. En esta aventura el jugador conocerá dos personajes con los que podrá interactuar durante el juego y al final de este desbloquear distintos finales dependiendo de las opciones que haya elegido.
 
 # La razón detrás del proyecto :D
 
